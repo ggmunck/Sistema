@@ -5,4 +5,4 @@ from django.http.response import HttpResponse
 # Create your views here.
 
 def Artigo(request, ano):
-    return HttpResponse('Ola Mundo! Esse foi o ano digitado: ' + ano)
+    return HttpResponse('Ola Mundo! Esse foi o ano digitado: ' + ano + ' Texto alterado')
